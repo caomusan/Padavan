@@ -37,8 +37,8 @@
 
 #define DEF_WLAN_2G_CC		"CN"
 #define DEF_WLAN_5G_CC		"CN"
-#define DEF_WLAN_2G_SSID	"Finer2023"
-#define DEF_WLAN_5G_SSID	"Finer2023_5G"
+#define DEF_WLAN_2G_SSID	"Finer_%s"
+#define DEF_WLAN_5G_SSID	"Finer5G_%s"
 #define DEF_WLAN_2G_GSSID	"PDCN_GUEST"
 #define DEF_WLAN_5G_GSSID	"PDCN_GUEST_5G"
 #define DEF_WLAN_2G_PSK		"cdr198012"
