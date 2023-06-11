@@ -13,4 +13,4 @@ https://github.com/yuos-bit/Padavan（页脚自定）
 2.常用文件目录：
 版本信息trunk/versions.inc；机型文件trunk/configs/（boards为配置文件夹，templates为Config文件）； 固件默认配置信息trunk/user/shared/defaults.h； 管理页面页脚信息trunk/user/www/Makefile；
 图标文件夹trunk/user/www/n56u_ribbon_fixed/bootstrap/img（asus_logo.png为logo）；背景设置trunk/user/www/n56u_ribbon_fixed/bootstrap/css/main.css；中文适配信息trunk/user/www/dict/CN.dict；
-3.小米路由器R3Gv2版本配置与小米R4A（旧版）一致，固件可以通用。
+3.小米路由器R3Gv2版本配置与小米R4A（旧版）一致，固件可以通用。修改MI-R4A机型适配兼容MI-R3Gv2，但保留使用“MI-R4A”机型名称，显示为MI-R4A(R3Gv2)。（trunk/configs/boards/MI-R4A/board.h、trunk/configs/templates/MI-R4A.config）
