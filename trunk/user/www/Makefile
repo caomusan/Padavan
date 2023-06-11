@@ -9,7 +9,7 @@ include $(ROOTDIR)/user/shared/boards.mk
 PROJECT_HOME_URL="https:\/\/github.com\/caomusan\/padavan\/"
 PROJECT_HOME_URL_MOD="https:\/\/github.com\/caomusan\/padavan\/"
 
-LABEL_COPYRIGHT_TEXT='© 2016-2023 <a href="https:\/\/github.com\/caomusan\/padavan\/" target="blank">Padavan<\/a> \& caomusan project community \& by <a href="https:\/\/github.com\/caomusan\/padavan\/" target="blank">github<\/a>'
+LABEL_COPYRIGHT_TEXT='©2023版权归原创者所有。 <a href="https:\/\/github.com\/caomusan\/padavan\/" target="blank">本固件由caomusan封装制作<\/a> '
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
