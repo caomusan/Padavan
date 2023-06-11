@@ -25,14 +25,14 @@
 #define SYS_EXEC_PATH_OPT	"/opt/sbin:/opt/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 #define SYS_HOME_PATH_ROOT	"/home/admin"
 
-#define SYS_USER_ROOT		"admin"
+#define SYS_USER_ROOT		"caomusan"
 #define SYS_GROUP_ROOT		"root"
 #define SYS_USER_NOBODY		"nobody"
 #define SYS_GROUP_NOGROUP	"nogroup"
 
-#define DEF_LAN_ADDR		"192.168.7.1"
-#define DEF_LAN_DHCP_BEG	"192.168.7.100"
-#define DEF_LAN_DHCP_END	"192.168.7.244"
+#define DEF_LAN_ADDR		"192.168.10.1"
+#define DEF_LAN_DHCP_BEG	"192.168.10.100"
+#define DEF_LAN_DHCP_END	"192.168.10.244"
 #define DEF_LAN_MASK		"255.255.255.0"
 
 #define DEF_WLAN_2G_CC		"CN"
@@ -44,7 +44,7 @@
 #define DEF_WLAN_2G_PSK		"cdr198012"
 #define DEF_WLAN_5G_PSK		"cdr198012"
 
-#define DEF_ROOT_PASSWORD	"admin"
+#define DEF_ROOT_PASSWORD	"cdr198012"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
 #define DEF_TIMEZONE		"CST-8"
 #define DEF_NTP_SERVER0		"time1.aliyun.com"
