@@ -1,7 +1,12 @@
 # Padavan 
-1.forked from ”keke1023“.仅供自己学习测试之用。
-2.基于hanwckf,chongshengB以及padavanonly的源码整合而来，支持kvr。编译方法同其他Padavan源码，主要特点如下：采用padavanonly源码的5.0.4.0无线驱动，支持kvr。添加了chongshengB源码的所有插件。其他部分等同于hanwckf的源码，有少量优化来自immortalwrt的padavan源码。添加了MSG1500的7615版本config。
-3.以下附上他们四位的源码地址供参考：https://github.com/hanwckf/rt-n56u  https://github.com/chongshengB/rt-n56u  https://github.com/padavanonly/rt-n56u  https://github.com/immortalwrt/padavan  。
+参考源码地址：
+https://github.com/keke1023/Padavan/    （主要引用）
+https://github.com/hanwckf/rt-n56u      （参考）
+https://github.com/chongshengB/rt-n56u  （参考）
+https://github.com/padavanonly/rt-n56u  （参考）
+https://github.com/immortalwrt/padavan  （参考）
+https://github.com/a0575/padavan （精简）
+https://github.com/yuos-bit/Padavan（页脚自定）
 
 # 使用备忘
 1.固件默认设置：wifi名称Finer2023及Finer2023_5G，wifi密码：自用不公开；管理地址192.168.10.1，管理账号caomusan密码均：自用不公开。  
