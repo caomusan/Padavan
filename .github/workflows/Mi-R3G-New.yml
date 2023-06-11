@@ -1,5 +1,5 @@
 #修改TNAME: 360P2 中的360P2为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同。参考hy5528/Padavan3.4-build
-name: Build MI-nano
+name: 小米MI-R3G-New
 
 on:
   workflow_dispatch:
@@ -37,13 +37,13 @@ jobs:
         pkg-config zlib1g-dev libgmp3-dev libmpc-dev libmpfr-dev libncurses5-dev libltdl-dev wget
     - name: Clone source code
       run: |
-        git clone --depth=1 https://github.com/caomusan/Padavan.git /opt/rt-n56u
+        git clone --depth=1 https://github.com/caomusan/padavan.git /opt/rt-n56u
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: MI-NANO
+        TNAME: MI-R3G
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
@@ -102,5 +102,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-MI-NANO
+        name: New-MI-R3G
         path: /opt/images
