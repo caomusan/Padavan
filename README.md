@@ -1,10 +1,10 @@
 # Padavan 
 参考源码地址：
-https://github.com/keke1023/Padavan/    （主要引用）
-https://github.com/hanwckf/rt-n56u      （参考）
-https://github.com/chongshengB/rt-n56u  （参考）
-https://github.com/a0575/padavan （精简）
-https://github.com/yuos-bit/Padavan（页脚自定）
+https://github.com/keke1023/Padavan/    （主要引用）  
+https://github.com/hanwckf/rt-n56u      （参考）  
+https://github.com/chongshengB/rt-n56u  （参考）  
+https://github.com/a0575/padavan （精简） 
+https://github.com/yuos-bit/Padavan（页脚自定） 
 
 # 使用备忘
 1.固件默认设置：wifi名称Finer2023及Finer2023_5G，wifi密码：自用不公开；管理地址192.168.10.1，管理账号caomusan密码均：自用不公开。  
