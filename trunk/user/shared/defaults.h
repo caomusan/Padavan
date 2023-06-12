@@ -35,8 +35,8 @@
 #define DEF_LAN_DHCP_END	"192.168.10.244"
 #define DEF_LAN_MASK		"255.255.255.0"
 
-#define DEF_WLAN_2G_CC		"CN"
-#define DEF_WLAN_5G_CC		"CN"
+#define DEF_WLAN_2G_CC		"US"
+#define DEF_WLAN_5G_CC		"US"
 #define DEF_WLAN_2G_SSID	"Finer_%s"
 #define DEF_WLAN_5G_SSID	"Finer5G_%s"
 #define DEF_WLAN_2G_GSSID	"PDCN_GUEST"
