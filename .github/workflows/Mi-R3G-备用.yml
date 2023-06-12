@@ -1,5 +1,5 @@
-#修改TNAME: 360P2 中的360P2为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同。参考hy5528/Padavan3.4-build
-name: 小米MI-R3G-New
+#修改TNAME: 360P2 中的360P2为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同。参考hy5528/Padavan3.4-build。此版包较大。
+name: 小米MI-R3G-备用
 
 on:
   workflow_dispatch:
