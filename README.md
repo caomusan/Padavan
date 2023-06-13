@@ -13,7 +13,8 @@
 
 ## 参考源码地址：   
 https://github.com/keke1023/Padavan/    （主要引用）  
-https://github.com/hanwckf/rt-n56u      （参考）  
-https://github.com/chongshengB/rt-n56u  （参考）  
-https://github.com/a0575/padavan （精简）   
-https://github.com/yuos-bit/Padavan （页脚）
+https://github.com/hanwckf/rt-n56u        
+https://github.com/chongshengB/rt-n56u   
+https://github.com/hanwckf/padavan-4.4  
+https://github.com/yuos-bit/padavan-4.4   （主要引用）    
+https://github.com/minax007/padavan-4.4   
