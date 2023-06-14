@@ -1,4 +1,4 @@
-#修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同.文件参考yuos-bit。固件生成引用“https://github.com/minax007/padavan-4.4”库的源文件制作。
+#修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同.文件参考yuos-bit。固件生成也可引用“https://github.com/minax007/padavan-4.4”库的源文件制作。
 name: 小米路由MI-R4A(4.4)
 
 on: 
@@ -37,7 +37,7 @@ jobs:
         KERNEL: 4.4
       run: |
         if [ $KERNEL = "4.4" ] ; then
-        git clone --depth=1 https://github.com/minax007/padavan-4.4.git /opt/rt-n56u
+        git clone --depth=1 https://github.com/caomusan/padavan4.4.git /opt/rt-n56u
         else
         git clone --depth=1 https://github.com/caomusan/padavan.git /opt/rt-n56u
         fi
