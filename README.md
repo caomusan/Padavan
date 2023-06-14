@@ -11,10 +11,9 @@
 (6)插件安装配置文档trunk/build_firmware_modify。一般在编译自动化流文本中重新自定义安装插件编译的要求github/workflows。
 4.小米路由器R3Gv2版本配置与小米R4A（旧版）一致，固件可以通用。
 
-## 参考源码地址：   
-https://github.com/keke1023/Padavan/    （主要引用）  
-https://github.com/hanwckf/rt-n56u        
-https://github.com/chongshengB/rt-n56u   
-https://github.com/hanwckf/padavan-4.4  
-https://github.com/yuos-bit/padavan-4.4   （主要引用）    
-https://github.com/minax007/padavan-4.4   
+## 源码地址参考     
+https://github.com/keke1023/Padavan    （主要引用）  
+https://github.com/minax007/padavan-4.4   （主要引用）    
+https://github.com/hanwckf   
+https://github.com/chongshengB    
+https://github.com/yuos-bit
