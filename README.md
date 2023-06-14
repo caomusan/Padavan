@@ -1,7 +1,7 @@
 # Padavan路由器自用固件制作
 ## 使用备忘
 1.基于linux-3.4.x内核版本。    
-2.固件默认设置：wifi名称"Finer_%s"及"Finer5G_%s"，密码自用；管理地址192.168.10.1，管理账号caomusan密码自用。  
+2.固件默认设置：wifi名称"Finer_%s"及"Finer5G_%s"，密码:1234567890；管理地址192.168.10.1，管理账号:amin,密码:admin。  
 3.常用文件目录：   
 (1)版本信息trunk/versions.inc；机型文件trunk/configs/（boards为配置文件夹，templates为Config文件）；    
 (2)固件默认配置信息trunk/user/shared/defaults.h； 管理页面页脚信息（2个地方）trunk/user/www/Makefile；还有一个地方。  
