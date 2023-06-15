@@ -1,5 +1,5 @@
 #修改TNAME: K2P 中的K2P为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同。流程文件参考“https://github.com/yuos-bit/Padavan-build/blob/master/.github/workflows/Redmi-ac2100.yml”
-name: Redmi-AC2100超频
+name: 小米路由RM-AC2100超频
 
 on: 
   repository_dispatch:
